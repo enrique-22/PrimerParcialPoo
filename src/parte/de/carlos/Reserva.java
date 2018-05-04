@@ -13,8 +13,11 @@ public class Reserva {
     public Cliente cliente;
     public Habitacion habitacion;
     public float CostoxNoche;
+    //paquete
     public float Total;
-    public void nuevoCliente(){}
+    //public void nuevoCliente(){}
+    
+    
     
     public Reserva(){}
        
@@ -25,9 +28,7 @@ public class Reserva {
         this.Total=Total;
         
     }
-  */  
-    
-    
+  
     public void CrearCliente(){
          
     
